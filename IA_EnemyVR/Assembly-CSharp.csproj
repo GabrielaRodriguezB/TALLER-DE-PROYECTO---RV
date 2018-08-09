@@ -169,7 +169,6 @@
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Prefabs\Scripts\Enemy\IA_Follow.cs" />
     <Compile Include="Assets\Prefabs\Scripts\Player\Movement.cs" />
-    <Compile Include="Assets\Prefabs\Scripts\Player\Movement1.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
