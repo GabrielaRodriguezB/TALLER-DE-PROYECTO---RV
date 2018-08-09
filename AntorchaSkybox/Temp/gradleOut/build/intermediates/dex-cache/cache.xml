@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luis\Desktop\Universidad\2018-2\Taller de Proyectos\AntorchaSkybox\Temp\gradleOut\libs\libprotobuf-java-nano.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fcd53f117550c58490f29c2e27afca051626260d">
+        <dex dex="C:\Users\Luis\Desktop\Universidad\2018-2\Taller de Proyectos\AntorchaSkybox\Temp\gradleOut\build\intermediates\pre-dexed\release\libprotobuf-java-nano_ab6be4519f2a7b874699c9ddb6f552925d862b30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Luis\Desktop\Universidad\2018-2\Taller de Proyectos\AntorchaSkybox\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="C:\Users\Luis\Desktop\Universidad\2018-2\Taller de Proyectos\AntorchaSkybox\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_e7594252d9bd52163d5bad79e1c27015377e26eb.jar" />
+    </item>
+
+</items>
