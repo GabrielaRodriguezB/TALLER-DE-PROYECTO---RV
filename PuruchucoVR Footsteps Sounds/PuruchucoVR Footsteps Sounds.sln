@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuruchucoVR Footsteps Sounds", "Assembly-CSharp.csproj", "{BD460244-D98F-A5A6-AD08-A82217ABCD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuruchucoVR Footsteps Sounds", "Assembly-CSharp-Editor.csproj", "{B633063E-822D-2CF9-7011-3A08AF571FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD460244-D98F-A5A6-AD08-A82217ABCD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD460244-D98F-A5A6-AD08-A82217ABCD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD460244-D98F-A5A6-AD08-A82217ABCD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD460244-D98F-A5A6-AD08-A82217ABCD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B633063E-822D-2CF9-7011-3A08AF571FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B633063E-822D-2CF9-7011-3A08AF571FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B633063E-822D-2CF9-7011-3A08AF571FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B633063E-822D-2CF9-7011-3A08AF571FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
