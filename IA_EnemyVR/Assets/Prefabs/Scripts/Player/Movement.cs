@@ -2,41 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoCapsula : MonoBehaviour {
-    public float velocidad;
-    private Vector3 MoviCapsula;
+public class Movement : MonoBehaviour {
 
-    public float horizontalSpeed = 2.0F;
-    public float verticalSpeed = 2.0F;
-
-    private const float Y_ANGLE_MIN = 20.0f;
-    private const float Y_ANGLE_MAX = 50.0f;
-   
-
-    // Use this for initialization
-    void Start ()
-    {
-        velocidad = 5f;
-  
-   
+	// Use this for initialization
+	void Start () {
+		
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update () {
+		
+	}
+
+    public float pos = 10f;
+
+    public GameObject CameraObj;
+
+    private void FixedUpdate()
     {
-       
-
-        float inputDerIzq = Input.GetAxis("Horizontal");
-        float inputArrAba = Input.GetAxis("Vertical");
-
-
-        float moverDerIzq = inputDerIzq * velocidad * Time.deltaTime;
-        float moverArrAba = inputArrAba * velocidad * Time.deltaTime;
-
-        transform.Translate(moverDerIzq, 0f, 0f);
-        transform.Translate(0f, 0f, moverArrAba);
-
-        
-
+        base.GetComponent<Rigidbody>().MovePosition(base.transform.position + (new Vector3(this.CameraObj.transform.forward.x, 0f, this.CameraObj.transform.forward.z) * this.pos * Input.GetAxis("Vertical") + new Vector3(this.CameraObj.transform.right.x, 0f, this.CameraObj.transform.right.z) * this.pos * Input.GetAxis("Horizontal")) * Time.deltaTime);
     }
 }

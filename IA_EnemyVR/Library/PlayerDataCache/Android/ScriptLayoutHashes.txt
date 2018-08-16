@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/afcf9/OneDrive/Desktop/Tarea Jueves-2/New Unity Project/Enemy-2.apk
+C:/Users/afcf9/OneDrive/Desktop/Projects/TALLER-DE-PROYECTO---RV/IA_EnemyVR/Enemy3.apk
 SceneListBegin?
 Assets/Scenes/Enemy Scene.unity
 SceneListEnd?
@@ -211,7 +211,6 @@ f46eb1797fb520e80d5d530f879a2187 Assembly-CSharp.dll:GoogleVR.VideoDemo.MenuHand
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Gvr.Internal.EmulatorClientSocket
 5c79f77e8bdc4433e7f19266d4a50278 Assembly-CSharp.dll:.GvrControllerInput
 2d1ef5186ac8f5ee44b3e43d9ff420bb Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
-16c6651f4ef364667d0287107042d2a7 Assembly-CSharp.dll:.Movement
 e241599c091a039de89f5e0a1c125183 Assembly-CSharp.dll:.GvrControllerReticleVisual
 5c887c78dd8476e1e5d5e0f9feb1e5e7 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
-03008454201a41829e465a956b3d7a89 Assembly-CSharp.dll:.MovimientoCapsula
+3816368b652cd06e73d98fdbb4eb0e05 Assembly-CSharp.dll:.Movement
