@@ -28,7 +28,7 @@ public class movemenet : MonoBehaviour {
 
     }
 
-    public float pos = 10f;
+    public float pos = 5f;
 
     public GameObject CameraObj;
 
