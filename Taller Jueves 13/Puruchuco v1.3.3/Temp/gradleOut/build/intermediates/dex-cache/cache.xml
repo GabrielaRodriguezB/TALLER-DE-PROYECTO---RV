@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\.gradle\caches\transforms-1\files-1.1\gvr-keyboardsupport-release.aar\8b9ecf28e696adc413ce8148fcb89411\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="0e73b79f6ee536f7b2d00367f0a55dce11a3a61d">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\.gradle\caches\transforms-1\files-1.1\gvr-permissionsupport-release.aar\452423580ac5ac82735f57f4c0369118\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="89a665d716c3d6b2922d194ecd5aec7ae45beb3f">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\libs\libprotobuf-java-nano.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="fcd53f117550c58490f29c2e27afca051626260d">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\.gradle\caches\transforms-1\files-1.1\gvr-keyboard.aar\f3c38eec0d036c5c75d6bbf369de6323\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="9dbb83f0fca00962e516ec6a098b69c7a07d0bf8">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\.gradle\caches\transforms-1\files-1.1\gvr.aar\949c2aac18bc26cdf41e62ae85fcfe87\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="126e08c2ed88b671f7b1d0994a107719bd97fd32">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\.gradle\caches\transforms-1\files-1.1\unitygvr.aar\f8b3f759b82d8ff1880265820a6ae439\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="36e70259b99d30e8bd89f2246a70d44a53cb309f">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="28.0.1"
+        sha1="2567e6c17f522163d556902f6c8685eeb0837604">
+        <dex dex="C:\Users\afcf9\OneDrive\Desktop\Taller Lunes 10\Puruchuco v1.3.1\Temp\gradleOut\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+
+</items>
