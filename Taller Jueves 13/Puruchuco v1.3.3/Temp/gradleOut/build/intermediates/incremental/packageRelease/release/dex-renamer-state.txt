@@ -1,4 +1,0 @@
-#Thu Sep 13 17:27:12 COT 2018
-base.0=C\:\\Users\\afcf9\\OneDrive\\Desktop\\Taller Lunes 10\\Puruchuco v1.3.1\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
