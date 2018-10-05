@@ -11,10 +11,11 @@ public class Movement : MonoBehaviour {
     private bool grounded=true;
     private bool canJump;
     private Rigidbody selfRigidbody;
-
+    CapsuleCollider colliderCapsula;
     // Use this for initialization
     void Start () {
         selfRigidbody = GetComponent<Rigidbody>();
+        colliderCapsula = gameObject.GetComponent<CapsuleCollider>();
     }
 	
 	// Update is called once per frame
@@ -35,6 +36,14 @@ public class Movement : MonoBehaviour {
             canJump = true;
         }
 
+        if(Input.GetButton("Fire1"))
+        {
+            colliderCapsula.height = 1.0f;
+        }
+        else
+        {
+            colliderCapsula.height = 1.8f;
+        }
     }
 
     void OnCollisionEnter(Collision hit)
