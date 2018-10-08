@@ -16,11 +16,14 @@ public class Movement : MonoBehaviour {
     void Start () {
         selfRigidbody = GetComponent<Rigidbody>();
         colliderCapsula = gameObject.GetComponent<CapsuleCollider>();
+
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
+        
+        
         if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
         {
             // Only start playing, if the audio hasn't been started yet
