@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - grounded
+  - mount
   layers:
   - Default
   - TransparentFX

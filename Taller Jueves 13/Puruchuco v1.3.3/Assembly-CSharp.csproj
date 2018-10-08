@@ -167,7 +167,8 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\lookplayer.cs" />
+    <Compile Include="Assets\Prefabs\Scripts\LLama\lookplayer.cs" />
+    <Compile Include="Assets\Prefabs\Scripts\LLama\MountLLama.cs" />
     <Compile Include="Assets\Prefabs\Scripts\LLama\MovementLlama.cs" />
     <Compile Include="Assets\Prefabs\Scripts\Player\Movement.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
