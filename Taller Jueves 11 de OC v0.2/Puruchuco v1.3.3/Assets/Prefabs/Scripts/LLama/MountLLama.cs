@@ -6,8 +6,10 @@ public class MountLLama : MonoBehaviour {
 
     private bool useMount; 
                            
-    public Transform mountObject; 
-    public Transform objControl;    
+    public Transform mountObject; //Llama
+    public Transform objControl;  //Player
+    public GameObject SostenCamara;
+    public GameObject CamaraVR;
     public Vector3 mountedPos;   
     public float moveSpeed = 2f;   
     public float mountSpeed = 3f;
@@ -33,7 +35,7 @@ public class MountLLama : MonoBehaviour {
     {
         if (useMount && Input.GetKeyDown(KeyCode.E))  
         {
- 
+            CamaraVR.transform.parent = SostenCamara.transform;
             transform.parent = mountObject.transform;
             rgbp = rgbm;
             objControl = mountObject; 

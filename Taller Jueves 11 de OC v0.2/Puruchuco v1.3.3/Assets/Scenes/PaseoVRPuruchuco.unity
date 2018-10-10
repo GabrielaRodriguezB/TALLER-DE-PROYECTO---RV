@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4251,6 +4251,34 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9872b53ac1f3d1f4b8f1715161320d0d, type: 3}
   m_IsPrefabAsset: 0
+--- !u!1 &691848552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691848553}
+  m_Layer: 0
+  m_Name: PosicionCamara
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &691848553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 691848552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: 3, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2080336131}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &694249842 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 1cd0ca1e064b8d3408efc6770e01db77,
@@ -9397,7 +9425,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1647731891}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5428705a143b67442977ed7903d2f4ea, type: 3}
   m_Name: 
@@ -9418,6 +9446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mountObject: {fileID: 2080336131}
   objControl: {fileID: 1647731894}
+  SostenCamara: {fileID: 691848552}
+  CamaraVR: {fileID: 534669902}
   mountedPos: {x: 50, y: 50, z: 50}
   moveSpeed: 5
   mountSpeed: 8
@@ -12400,6 +12430,10 @@ Prefab:
     - target: {fileID: 400044, guid: 1cd0ca1e064b8d3408efc6770e01db77, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 1cd0ca1e064b8d3408efc6770e01db77, type: 3}
+      propertyPath: m_Name
+      value: Llama Caminando V1.0 GOZU
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 1cd0ca1e064b8d3408efc6770e01db77, type: 3}
