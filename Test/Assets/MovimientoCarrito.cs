@@ -6,21 +6,36 @@ public class MovimientoCarrito : MonoBehaviour {
 
     public float pos = 10f;
     public GameObject CameraObj;
-    MovimientoCarrito script;
+    //MovimientoCarrito script;
     public int forceConst = 5;
     private bool canJump;
     private Rigidbody selfRigidbody;
+
+
+
+    public bool EnCarro = true;
+    public GameObject Jugador;
+    public GameObject Llama;
+    public GameObject CamaraVR;
+
     // Use this for initialization
     void Start()
     {
         selfRigidbody = GetComponent<Rigidbody>();
-        script = GetComponent<MovimientoCarrito>();
+        //script = GetComponent<MovimientoCarrito>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            EnCarro = false;
+            Jugador.SetActive(true);
+            //Jugador.transform.parent = Jugador.transform;
+            CamaraVR.transform.parent = Jugador.transform;
+            this.enabled = false;  
+        }
     }
 
     private void FixedUpdate()
