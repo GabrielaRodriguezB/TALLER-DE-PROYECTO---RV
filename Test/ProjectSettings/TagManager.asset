@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Carrito
   - VRCarrito
+  - grounded
   layers:
   - Default
   - TransparentFX

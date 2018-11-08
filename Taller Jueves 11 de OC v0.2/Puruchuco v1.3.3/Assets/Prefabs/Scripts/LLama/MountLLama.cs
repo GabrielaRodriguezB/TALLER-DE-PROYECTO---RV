@@ -33,7 +33,7 @@ public class MountLLama : MonoBehaviour {
 
     void Update()
     {
-        if (useMount && Input.GetKeyDown(KeyCode.E))  
+        if (useMount && (Input.GetKeyDown(KeyCode.E)|| Input.GetButton("Fire2")))  
         {
             CamaraVR.transform.parent = SostenCamara.transform;
             transform.parent = mountObject.transform;
@@ -45,7 +45,7 @@ public class MountLLama : MonoBehaviour {
             transform.position = mountedPos;
         }
 
-        if (useMount && Input.GetKeyDown(KeyCode.G))
+        if (useMount && (Input.GetKeyDown(KeyCode.G)|| Input.GetButton("Fire3")))
         {
             
             transform.parent = null;
@@ -62,6 +62,7 @@ public class MountLLama : MonoBehaviour {
         {
             mountObject.Translate(Vector3.forward * moveSpeed * Time.deltaTime); 
         }
+
         if (Input.GetKey(KeyCode.S) && useMount)
         {
             mountObject.Translate(Vector3.back * moveSpeed * Time.deltaTime); 
