@@ -29,4 +29,7 @@ public class MoveCamera : MonoBehaviour {
 #endif
         transform.localPosition = new Vector3(0, 0, 0);
     }
+
+
+   
 }
